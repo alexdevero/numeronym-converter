@@ -1,7 +1,7 @@
 {
-  "name": "numeronym-generator",
+  "name": "numeronym-converter",
   "version": "1.0.0",
-  "description": "A simple tool for generating numeronyms.",
+  "description": "A simple tool for converting text to numeronyms.",
   "main": "main.js",
   "engines": {
     "node": ">=8.0.0",
@@ -9,14 +9,15 @@
     "yarn": ">=0.27.x"
   },
   "scripts": {
-    "start": "set NODE_ENV=development && node ./src/main.js",
-    "start:cli": "run in command line interface",
-    "build": "set NODE_ENV=production && babel ./src/main.js --out-file ./dist/main.js",
-    "test": "set NODE_ENV=test && eslint ./src/main.js"
+    "clean": "rm -r ./dist/*",
+    "build": "set NODE_ENV=production && babel ./src --out-dir ./dist --source-maps --copy-files",
+    "start:cli": "set NODE_ENV=development && node ./src/cli.js",
+    "start:web": "set NODE_ENV=development && gulp dev",
+    "test": "set NODE_ENV=test && eslint ./src/**/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexdevero/numeronym-generator.git"
+    "url": "git+https://github.com/alexdevero/numeronym-converter.git"
   },
   "keywords": [
     "converter",
@@ -31,13 +32,34 @@
   "author": "Alex Devero <deveroalex@gmail.com> (http://github.com/alexdevero)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alexdevero/numeronym-generator/issues"
+    "url": "https://github.com/alexdevero/numeronym-converter/issues"
   },
-  "homepage": "https://github.com/alexdevero/numeronym-generator#readme",
-  "dependencies": {},
+  "homepage": "https://github.com/alexdevero/numeronym-converter#readme",
+  "dependencies": {
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^11.0.0",
+    "postcss-nested": "^2.1.2",
+    "postcss-pxtorem": "^4.0.1",
+    "postcss-simple-vars": "^4.1.0"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.0",
-    "eslint": "^4.8.0"
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.18.13",
+    "cssnano": "^3.10.0",
+    "eslint": "^4.9.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-prune": "^0.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sequence": "^0.4.6",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "postcss-cli": "^4.1.1",
+    "require-dir": "^0.3.2"
   }
 }
