@@ -1,0 +1,130 @@
+<!doctype html>
+<html class="no-js" lang="en-gb" itemscope itemtype="http://schema.org/WebPage">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>Numeronym Converter</title>
+
+  <meta name="description" content="A simple tool for converting text to numeronyms.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="handheldFriendly" content="true">
+  <meta name="subject" content="Numeronym Converter">
+  <meta name="language" content="English">
+  <meta name="robots" content="index,follow">
+  <meta name="googlebot" content="index,follow">
+  <meta name="coverage" content="Worldwide">
+  <meta name="rating" content="General">
+  <!-- <meta name="url" content="https://www.url.cz"> -->
+  <!-- <meta name="identifier-URL" content="https://www.url.cz"> -->
+
+  <!-- Facebook OpenGraph tags -->
+  <meta property="og:title" content="Numeronym Converter">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="A simple tool for converting text to numeronyms.">
+  <!-- <meta property="og:url" content="https://www.rul.cz"> -->
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Numeronym Converter">
+  <meta property="article:author" content="Alex Devero">
+
+  <!-- Twitter cards tags -->
+  <meta name="twitter:card" content="summary">
+  <!-- <meta name="twitter:site" content="https://www.url.cz"> -->
+  <meta name="twitter:creator" content="Alex Devero">
+  <!-- <meta name="twitter:url" content="https://www.url.cz"> -->
+  <meta name="twitter:title" content="Numeronym Converter">
+  <meta name="twitter:description" content="A simple tool for converting text to numeronyms.">
+
+  <!--  Google+ / Schema.org -->
+  <meta itemprop="name" content="Numeronym Converter">
+  <meta itemprop="description" content="A simple tool for converting text to numeronyms.">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40173486-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-40173486-4');
+  </script>
+
+  <!-- Font Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="./styles/styles.compiled.css">
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <div class="wrapper">
+    <div class="col__full">
+      <h1 class="heading">Numeronym Converter</h1>
+    </div>
+
+    <div class="col__full">
+      <label for="numeronym-textarea">Original text:</label>
+      <input name="numeronym-textarea" id="numeronym-textarea" class="numeronym-textarea" type="text">
+    </div>
+
+    <div class="col__full">
+      <label for="numeronym-result">Result:</label>
+      <input name="numeronym-result" id="numeronym-result" class="numeronym-result" type="text">
+    </div>
+
+    <div class="col__full">
+      <label class="switch" for="numeronym-lower">
+        <input id="numeronym-lower" class="numeronym-lower switch__input" name="numeronym-lower" type="checkbox">
+
+        <span class="switch__paddle"></span>
+
+        <span class="switch__label">Convert to lower case</span>
+      </label>
+    </div>
+
+    <div class="col__full">
+      <label class="switch" for="numeronym-upper">
+        <input id="numeronym-upper" class="numeronym-upper switch__input" name="numeronym-upper" type="checkbox">
+
+        <span class="switch__paddle"></span>
+
+        <span class="switch__label">Convert to upper case</span>
+      </label>
+    </div>
+
+    <div class="col__full btn-container">
+      <button class="numeronym-button btn" type="button">Convert</button>
+    </div>
+  </div>
+
+  <footer>
+    <ul>
+      <li>
+        <a href="https://github.com/alexdevero"><span class="fa fa-github"></span></a>
+      </li>
+
+      <li>
+        <a href="https://alexdevero.com/"><span class="fa fa-globe"></span></a>
+      </li>
+
+      <li>
+        <a href="https://twitter.com/alexdevero"><span class="fa fa-twitter"></span></a>
+      </li>
+
+      <li>
+        <a href="https://dribbble.com/alexdevero"><span class="fa fa-dribbble"></span></a>
+      </li>
+    </ul>
+  </footer>
+
+  <!-- Main scripts -->
+  <script src="./scripts/main.compiled.js"></script>
+</body>
+</html>
