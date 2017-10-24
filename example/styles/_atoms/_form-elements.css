@@ -1,16 +1,32 @@
 /* Form elements */
 
-textarea {
-  padding: 8px;
-  width: 100%;
-  min-height: 120px;
+label {
+  & + input {
+    margin-top: 4px;
+  }
+}
+
+input {
+  padding-top: 8px;
+  padding-bottom: 8px;
   font-family: inherit;
   font-size: 16px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  resize: vertical;
+  color: $color-primary;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #ddd;
+  border-left: 0;
+  transition: all 0.25s ease-out;
 
-  @media (min-width: 480px) {
-    min-height: 220px;
+  &:focus {
+    border-bottom-color: $color-primary;
+    outline: 0;
   }
+}
+
+.input-hint {
+  margin-top: 8px;
+  display: block;
+  font-size: 14px;
+  color: #777;
 }
