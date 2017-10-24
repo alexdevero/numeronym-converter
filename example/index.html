@@ -69,34 +69,44 @@
       <h1 class="heading">Numeronym Converter</h1>
     </div>
 
-    <div class="col__full">
-      <label for="numeronym-textarea">Original text:</label>
-      <input name="numeronym-textarea" id="numeronym-textarea" class="numeronym-textarea" type="text">
+    <div class="col__full col--center">
+      <div class="col__half col--vertical">
+        <label for="numeronym-textarea">Original text:</label>
+        <input name="numeronym-textarea" id="numeronym-textarea" class="numeronym-textarea" type="text" pattern=".{3,}" required>
+
+        <span class="input-hint">3 characters are minimum</span>
+      </div>
     </div>
 
-    <div class="col__full">
-      <label for="numeronym-result">Result:</label>
-      <input name="numeronym-result" id="numeronym-result" class="numeronym-result" type="text">
+    <div class="col__full col--center">
+      <div class="col__half col--vertical">
+        <label for="numeronym-result">Result:</label>
+        <input name="numeronym-result" id="numeronym-result" class="numeronym-result" type="text">
+      </div>
     </div>
 
-    <div class="col__full">
-      <label class="switch" for="numeronym-lower">
-        <input id="numeronym-lower" class="numeronym-lower switch__input" name="numeronym-lower" type="checkbox">
+    <div class="col__full col--center">
+      <div class="col__half">
+        <label class="switch" for="numeronym-lower">
+          <input id="numeronym-lower" class="numeronym-lower switch__input" name="numeronym-lower" type="checkbox">
 
-        <span class="switch__paddle"></span>
+          <span class="switch__paddle"></span>
 
-        <span class="switch__label">Convert to lower case</span>
-      </label>
+          <span class="switch__label">Convert to lower case</span>
+        </label>
+      </div>
     </div>
 
-    <div class="col__full">
-      <label class="switch" for="numeronym-upper">
-        <input id="numeronym-upper" class="numeronym-upper switch__input" name="numeronym-upper" type="checkbox">
+    <div class="col__full col--center">
+      <div class="col__half">
+        <label class="switch" for="numeronym-upper">
+          <input id="numeronym-upper" class="numeronym-upper switch__input" name="numeronym-upper" type="checkbox">
 
-        <span class="switch__paddle"></span>
+          <span class="switch__paddle"></span>
 
-        <span class="switch__label">Convert to upper case</span>
-      </label>
+          <span class="switch__label">Convert to upper case</span>
+        </label>
+      </div>
     </div>
 
     <div class="col__full btn-container">
