@@ -1,0 +1,15 @@
+/**/
+/* Main styles file */
+/**/
+
+@import '_config/_variables.css';
+
+@import '_base/_base.css';
+@import '_base/_typography.css';
+
+@import '_atoms/_buttons.css';
+@import '_atoms/_form-elements.css';
+@import '_atoms/_switch.css';
+
+@import '_organisms/_footer.css';
+@import '_organisms/_grid.css';
