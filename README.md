@@ -11,8 +11,7 @@
 
 # Numeronym generator
 
-A simple tool for generating numeronyms.
-
+A simple tool for generating numeronyms. You can test it [here](https://alexdevero.com/labs/numeronym/).
 
 ## Install
 ```
@@ -22,8 +21,14 @@ Or if you prefer using Yarn:
 ```
 $ yarn add numeronym-generator
 ```
+
+Or you can also clone this repo
+```
+$ git clone https://github.com/alexdevero/numeronym-converter.git
+```
+
 ## Usage
-### Use l33t converter in your code:
+### Use numeronym converter in your code:
 ```js
 // Import converter
 const { convertToNumeronym } = require('./numeronym-converter')
