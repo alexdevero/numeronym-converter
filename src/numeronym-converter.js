@@ -4,11 +4,8 @@ const convertToNumeronym = (text) => {
 		let inputParts = []
 		let result= ''
 
-		// Remove white space
-	  input = input.replace(/\s+/g, '')
-
-	  // Remove apostrophes "'s"
-	  input = input.replace(/'s/gi,'')
+		// Remove white space & apostrophes
+	  input = input.replace(/\s+/g, '').replace(/'/gi,'')
 
 		inputParts.push(input.substr(0, 1), input.length -2, input.substr(input.length - 1, input.length))
 
