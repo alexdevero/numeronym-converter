@@ -57,9 +57,9 @@ buttonEl.addEventListener('click', () => {
   text = convertToNumeronym(text)
 
   if (toUpperCase.toLowerCase() === 'y') {
-    text.toLowerCase()
+    text = text.toLowerCase()
   } else if (toLowerCase.toLowerCase() === 'y') {
-    text.toUpperCase()
+    text = text.toUpperCase()
   }
 
   resultEl.value = text
