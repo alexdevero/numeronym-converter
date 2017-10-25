@@ -9,8 +9,18 @@ const rl = readline.createInterface({
   output: process.stdout
 })
 
-rl.question('What text do you want to convert into numeronym? \n', (answer) => {
-  convertToNumeronym(answer)
+const init = () => {
+  rl.question('What text do you want to convert into numeronym? \n', (answer) => {
+    convertToNumeronym(answer)
 
-  rl.close()
-})
+    rl.question('Do you want to convert another word? (Y/N) \n', (answerTwo) => {
+      if (answerTwo.toLowerCase() === 'y') {
+        init()
+      } else {
+        rl.close()
+      }
+    })
+  })
+}
+
+init()
