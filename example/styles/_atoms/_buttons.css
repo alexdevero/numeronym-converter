@@ -1,9 +1,7 @@
 /* Buttons */
 
 .btn-container {
-  @media (min-width: 480px) {
-    justify-content: center;
-  }
+  justify-content: center;
 }
 
 .btn {
