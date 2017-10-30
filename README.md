@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <a href="https://david-dm.org/alexdevero/numeronym-generator"><img alt="Dependency Status" src="https://david-dm.org/alexdevero/numeronym-generator.svg?style=flat"></a>
   <a href="https://david-dm.org/alexdevero/numeronym-generator?type=dev"><img alt="devDependency Status" src="https://david-dm.org/alexdevero/numeronym-generator/dev-status.svg?style=flat"></a>
   <a href="https://alexdevero.com"><img alt="Built by DEVERO" src="https://img.shields.io/badge/built%20by-DEVERO-brightgreen.svg?colorB=d30320"></a>
@@ -14,6 +14,7 @@
 A simple tool for generating numeronyms. You can test it [here](https://alexdevero.com/labs/numeronym/).
 
 ### Table of contents
+
 * [Install](#install)
 * [Usage](#usage)
 * [Support this project](#support-this-project)
@@ -21,6 +22,7 @@ A simple tool for generating numeronyms. You can test it [here](https://alexdeve
 * [License](#license)
 
 ## Install
+
 ```
 $ npm install numeronym-generator
 ```
@@ -35,7 +37,9 @@ $ git clone https://github.com/alexdevero/numeronym-converter.git
 ```
 
 ## Usage
+
 ### Use numeronym converter in your code:
+
 ```js
 // Import converter
 const { convertToNumeronym } = require('./numeronym-converter')
@@ -47,6 +51,7 @@ convertToNumeronym(text)
 ```
 
 ### Run CLI version (in command line):
+
 ```
 $ npm run start:cli
 ```
@@ -54,7 +59,9 @@ Or if you prefer using Yarn:
 ```
 $ yarn run start:cli
 ```
+
 ### Run web version (on locahost, port 1337) use:
+
 ```
 $ npm run start:web
 ```
