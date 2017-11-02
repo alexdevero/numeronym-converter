@@ -2,11 +2,14 @@
   <a href="https://david-dm.org/alexdevero/numeronym-generator"><img alt="Dependency Status" src="https://david-dm.org/alexdevero/numeronym-generator.svg?style=flat"></a>
   <a href="https://david-dm.org/alexdevero/numeronym-generator?type=dev"><img alt="devDependency Status" src="https://david-dm.org/alexdevero/numeronym-generator/dev-status.svg?style=flat"></a>
   <a href="https://alexdevero.com"><img alt="Built by DEVERO" src="https://img.shields.io/badge/built%20by-DEVERO-brightgreen.svg?colorB=d30320"></a>
+  <a href="http://opensource.org/licenses/MIT"><img alt="MIT License" src="https://img.shields.io/npm/l/express.svg"></a>
 </p>
 
 <p align="center">
-  <a href="http://opensource.org/licenses/MIT"><img alt="MIT License" src="https://img.shields.io/npm/l/express.svg"></a>
-  <a href="#"><img alt="Releases" src="https://img.shields.io/github/release/alexdevero/numeronym-generator.svg"></a>
+  <a href="https://www.npmjs.com/package/numeronym-generator"><img alt="Downloads last week" src="https://img.shields.io/npm/dw/localeval.svg"></a>
+  <a href="https://www.npmjs.com/package/numeronym-generator"><img alt="Downloads last moth" src="https://img.shields.io/npm/dm/localeval.svg"></a>
+  <a href="https://www.npmjs.com/package/numeronym-generator"><img alt="Downloads last year" src="https://img.shields.io/npm/dy/localeval.svg"></a>
+  <a href="https://github.com/alexdevero/numeronym-generator/releases"><img alt="Current release" src="https://img.shields.io/github/release/alexdevero/numeronym-generator.svg"></a>
 </p>
 
 # Numeronym generator
