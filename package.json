@@ -1,6 +1,6 @@
 {
   "name": "numeronym-converter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple tool for converting text to numeronyms.",
   "main": "main.js",
   "engines": {
