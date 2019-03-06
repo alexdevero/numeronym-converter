@@ -29,6 +29,10 @@
     "open-source",
     "source"
   ],
+  "files": [
+    "dist",
+    "src/cli.js"
+  ],
   "author": "Alex Devero <deveroalex@gmail.com> (http://github.com/alexdevero)",
   "license": "MIT",
   "bugs": {
@@ -36,31 +40,33 @@
   },
   "homepage": "https://github.com/alexdevero/numeronym-converter#readme",
   "dependencies": {
-    "postcss-cssnext": "^3.0.2",
-    "postcss-import": "^11.0.0",
-    "postcss-nested": "^3.0.0",
+    "chalk": "2.4.2",
+    "meow": "5.0.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.1.2",
     "postcss-pxtorem": "^4.0.1",
-    "postcss-simple-vars": "^4.1.0"
+    "postcss-simple-vars": "^5.0.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "browser-sync": "^2.23.1",
-    "cross-env": "^5.1.3",
-    "cssnano": "^3.10.0",
-    "eslint": "^4.14.0",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.26.3",
+    "cross-env": "^5.2.0",
+    "cssnano": "^4.1.10",
+    "eslint": "^5.15.1",
     "gulp": "^3.9.1",
     "gulp-babel": "^7.0.0",
     "gulp-csscomb": "^3.0.8",
-    "gulp-plumber": "^1.1.0",
+    "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^7.0.1",
     "gulp-prune": "^0.2.0",
-    "gulp-rename": "^1.2.2",
+    "gulp-rename": "^1.4.0",
     "gulp-sequence": "^1.0.0",
-    "gulp-sourcemaps": "^2.6.2",
-    "gulp-uglify": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
     "gulp-util": "^3.0.8",
-    "postcss-cli": "^4.1.1",
-    "require-dir": "^0.3.2"
+    "postcss-cli": "^6.1.2",
+    "require-dir": "^1.2.0"
   }
 }
